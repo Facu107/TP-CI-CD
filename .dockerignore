@@ -1,0 +1,7 @@
+# Ignorar archivos de configuración y dependencias innecesarias
+*.pyc
+__pycache__/
+*.git
+*.gitignore
+*.DS_Store
+.env
