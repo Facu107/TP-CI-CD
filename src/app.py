@@ -63,6 +63,9 @@ from flask_cors import CORS
 from flask_dance.contrib.google import make_google_blueprint, google
 import time
 
+# desde aqui se llama la aplicacion al inicio
+#app = Flask(__name__)
+
 
 
 # desde aqui se llama la aplicacion al inicio
@@ -164,3 +167,7 @@ if __name__ == "__main__":
     while True:
         schedule.run_pending()
         time.sleep(1)
+
+
+
+        #comentario para segundo commit
